@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="API test suite">
+    <test name="API employee tests">
+        <classes>
+            <class name="cucumberOptions.RunCucumberTest">
+            </class>
+        </classes>
+    </test>
+</suite>
+
