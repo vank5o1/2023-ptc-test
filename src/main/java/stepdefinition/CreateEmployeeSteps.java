@@ -1,6 +1,6 @@
 package stepdefinition;
 
-import Utility.RandomUtility;
+import utility.RandomUtility;
 import config.ApiConstant;
 import core.api.dto.request.createEmployeeRequest.CreateEmployeeRequestDTO;
 import core.api.dto.response.CreateEmployeeResponse;

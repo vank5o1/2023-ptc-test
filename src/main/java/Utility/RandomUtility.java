@@ -1,4 +1,4 @@
-package Utility;
+package utility;
 import java.util.Random;
 public class RandomUtility {
     private static final String[] NAMES = {"Alice", "Bob", "Charlie", "David", "Eva", "Frank", "Grace", "Hannah", "Isaac", "Jack"};
