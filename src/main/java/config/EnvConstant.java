@@ -1,9 +1,9 @@
 package config;
 
-public class ENVConstant {
+public class EnvConstant {
 
     public static final String HTTPS_PROTOCOL = "https";
 
-    private ENVConstant() {
+    private EnvConstant() {
         throw new IllegalStateException("Utility class");}
 }

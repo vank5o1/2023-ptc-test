@@ -5,7 +5,7 @@ import io.cucumber.testng.FeatureWrapper;
 import io.cucumber.testng.PickleWrapper;
 import io.cucumber.testng.TestNGCucumberRunner;
 import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeClass ;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
@@ -16,7 +16,7 @@ import org.testng.annotations.Test;
         tags = "@Test"
 
 )
-public class RunCucumberTest {
+public class  RunCucumberTest {
 
     private TestNGCucumberRunner testNGCucumberRunner;
     @BeforeClass(alwaysRun = true)

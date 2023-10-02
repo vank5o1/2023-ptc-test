@@ -1,5 +1,5 @@
 package core.api.base;
-import config.ENVConstant;
+import config.EnvConstant;
 import io.restassured.RestAssured;
 import io.restassured.config.HttpClientConfig;
 import io.restassured.config.RestAssuredConfig;
@@ -14,7 +14,7 @@ import java.util.Map;
 public class BaseRestApiService implements Service<RequestSpecification, Method, Response>{
 
     private String host;
-    private String protocol = ENVConstant.HTTPS_PROTOCOL;
+    private String protocol = EnvConstant.HTTPS_PROTOCOL;
 
     private Map<String, String> cookies = new ArrayMap<>();
     private Map<String, String> headers = new ArrayMap<>();
